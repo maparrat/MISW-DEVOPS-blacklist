@@ -8,4 +8,4 @@ RUN pip install --upgrade pip \
 
 EXPOSE 5000
 
-CMD ["python3", "src/application.py"]
+CMD ["newrelic-admin", "run-program", "python3", "src/application.py"]
