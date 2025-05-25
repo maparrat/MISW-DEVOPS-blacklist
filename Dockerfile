@@ -8,7 +8,7 @@ RUN pip install --upgrade pip \
 
 EXPOSE 5000
 
-ENV NEW_RELIC_APP_NAME="docker"
+ENV NEW_RELIC_APP_NAME="Blaclist_App"
 ENV NEW_RELIC_LOG=stdout
 ENV NEW_RELIC_DISTRIBUTED_TRACING_ENABLED=true
 #INGEST_License
