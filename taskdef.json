@@ -10,7 +10,7 @@
           }
         ],
 
-        "image": "<IMAGE1_NAME>",
+        "image": "403245568912.dkr.ecr.us-east-1.amazonaws.com/blacklist_app:latest",
         "essential": true,
         "name": "Container-app-blacklist"
       }
